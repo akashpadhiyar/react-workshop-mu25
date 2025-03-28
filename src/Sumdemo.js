@@ -9,6 +9,7 @@ class Sumdemo extends React.Component {
     doSum() {
         var a = this.state.txt1
         var b = this.state.txt2
+        const {txt1,txt2} = this.state
         var c = parseInt(a) + parseInt(b)
         this.setState({ ans: "Sum is " + c })
     }

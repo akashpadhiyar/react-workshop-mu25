@@ -6,9 +6,11 @@ import Contact from './Contact'
 import EventDemo from "./EventDemo"
 import Counter from "./Counter"
 import Sumdemo from "./Sumdemo"
-function App() {
+function App(props) {
   return (<>
     <h1>My React App</h1>
+
+
     <Router>
     <Link to='home'>Home</Link>|
     <Link to='about'>About</Link>|
